@@ -20,6 +20,9 @@ public class Entreprise {
 
 	}
 
+	/**
+	 * Getters et setters
+	 */
 	public int getSiret() {
 		return siret;
 	}
