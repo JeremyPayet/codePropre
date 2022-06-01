@@ -1,7 +1,7 @@
 package ex1;
 
 /**
- * Classe qui propose des opérations sur les nombres*
+ * Classe qui propose des opérations sur les nombres
  * 
  * @author Jérémy Payet
  */
