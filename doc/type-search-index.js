@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ex3","l":"Animal"},{"p":"ex3","l":"Aquarium"},{"p":"ex3","l":"Comportement"},{"p":"ex3","l":"FermeReptile"},{"p":"ex3","l":"ListeAnimal"},{"p":"ex3","l":"SavaneAfricaine"},{"p":"ex3","l":"Type"},{"p":"ex3","l":"ZoneCarnivore"},{"p":"ex3","l":"Zoo"},{"p":"ex3","l":"ZooApplication"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ex4","l":"Pret"},{"p":"ex4","l":"PretATerme"},{"p":"ex4","l":"Strategy"}];updateSearchResults();

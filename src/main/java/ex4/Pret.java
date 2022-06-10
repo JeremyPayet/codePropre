@@ -2,6 +2,12 @@ package ex4;
 
 import java.util.Date;
 
+/**
+ * Classe qui définit un prêt
+ * 
+ * @author Jeremy Payet
+ *
+ */
 public class Pret {
 
 	private Strategy strategy;
@@ -11,11 +17,21 @@ public class Pret {
 	private Date dateDebut;
 	private Date dateFin;
 
+	/**
+	 * Constructeur par défaut qui initialise la stratégie
+	 */
 	public Pret() {
 		super();
 		this.strategy = new PretATerme();
 	}
 
+	/**
+	 * Constructeur avec taux, capital et début de prêt
+	 * 
+	 * @param capital   le capital total
+	 * @param taux      le taux du prêt
+	 * @param dateDebut la date de début du prêt
+	 */
 	public Pret(double capital, double taux, Date dateDebut) {
 		new Pret();
 		this.capital = capital;
@@ -23,11 +39,28 @@ public class Pret {
 		this.dateDebut = dateDebut;
 	}
 
+	/**
+	 * Constructeur avec la date de fin
+	 * 
+	 * @param capital   le capital total
+	 * @param taux      le taux du prêt
+	 * @param dateDebut la date de début du prêt
+	 * @param dateFin   la date de fin du prêt
+	 */
 	public Pret(double capital, double taux, Date dateDebut, Date dateFin) {
 		new Pret(capital, taux, dateDebut);
 		this.dateFin = dateFin;
 	}
 
+	/**
+	 * Constructeur avec le capital restant du
+	 * 
+	 * @param capital          le capital total
+	 * @param capitalRestantDu le capital restant
+	 * @param taux             le taux du prêt
+	 * @param dateDebut        la date de début du prêt
+	 * @param dateFin          la date de fin du prêt
+	 */
 	public Pret(double capital, double capitalRestantDu, double taux, Date dateDebut, Date dateFin) {
 		new Pret(capital, taux, dateDebut, dateFin);
 		this.capitalRestantDu = capitalRestantDu;
