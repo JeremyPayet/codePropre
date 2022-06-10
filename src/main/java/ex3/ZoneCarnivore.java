@@ -2,25 +2,22 @@ package ex3;
 
 import java.util.List;
 
-public class ZoneCarnivore {
-
-	private List<String> types;
-	private List<String> noms;
-	private List<String> comportements;
-	
-	public void addAnimal(String typeAnimal, String nomAnimal, String comportement) {
-		types.add(typeAnimal);
-		noms.add(nomAnimal);
-		comportements.add(comportement);
-	}
-	
-	public void afficherListeAnimaux(){
-		for (String nom: noms){
-			System.out.println(nom);
-		}
-	}
-	
-	public double calculerKgsNourritureParJour(){
-		return noms.size() * 10;
+/**
+ * Sous-classe qui définit une zone de carnivore
+ * 
+ * @author Jérémy Payet
+ *
+ */
+public class ZoneCarnivore extends ListeAnimal {
+	/**
+	 * Constructeur
+	 * 
+	 * @param types         la liste des types
+	 * @param noms          la liste des noms
+	 * @param comportements la liste des comportements
+	 */
+	public ZoneCarnivore(List<Type> types, List<String> noms, List<Comportement> comportements) {
+		super(types, noms, comportements);
+		// TODO Auto-generated constructor stub
 	}
 }
